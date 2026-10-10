@@ -91,8 +91,7 @@ const projects = [
   {
     number: "03",
     title: "Todo Application",
-    description:
-      "A task management interface for organizing everyday tasks.",
+    description: "A task management interface for organizing everyday tasks.",
     tags: ["React", "JavaScript", "Tailwind"],
     demo: "https://t-o-d-o-a-p-p-l-i-c-a-t-i-o-n.netlify.app",
     icon: <TerminalIcon />,
@@ -100,8 +99,7 @@ const projects = [
   {
     number: "04",
     title: "Random Password Generator",
-    description:
-      "A JavaScript utility for generating random passwords.",
+    description: "A JavaScript utility for generating random passwords.",
     tags: ["HTML", "CSS", "JavaScript"],
     demo: "https://random-password-by-using-js.netlify.app",
     icon: <CodeIcon />,
@@ -244,8 +242,8 @@ export default function Portfolio() {
 
           <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400 md:text-base">
             I build modern web interfaces with React, JavaScript and Tailwind
-            CSS. I enjoy turning ideas into interactive digital experiences
-            and integrating applications with Firebase.
+            CSS. I enjoy turning ideas into interactive digital experiences and
+            integrating applications with Firebase.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -308,36 +306,6 @@ export default function Portfolio() {
               </p>
             </div>
           </div>
-
-          <div className="float-card absolute left-0 top-10 z-20 rounded-2xl border border-cyan-400/50 bg-[#06152f]/95 p-3 shadow-xl backdrop-blur-xl sm:-left-3 sm:p-4">
-            <div className="flex items-center gap-3">
-              <CodeIcon className="text-cyan-300" />
-              <div>
-                <p className="text-xs font-bold">Clean Code</p>
-                <p className="text-[10px] text-slate-400">Better UI</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="float-card absolute right-0 top-[42%] z-20 rounded-2xl border border-blue-400/50 bg-[#06152f]/95 p-3 shadow-xl backdrop-blur-xl sm:-right-3 sm:p-4" style={{ animationDelay: "1s" }}>
-            <div className="flex items-center gap-3">
-              <AutoAwesomeIcon className="text-cyan-300" />
-              <div>
-                <p className="text-xs font-bold">React + Firebase</p>
-                <p className="text-[10px] text-slate-400">Modern Web Apps</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="float-card absolute bottom-8 left-0 z-20 rounded-2xl border border-cyan-400/50 bg-[#06152f]/95 p-3 shadow-xl backdrop-blur-xl sm:-left-4 sm:p-4" style={{ animationDelay: "2s" }}>
-            <div className="flex items-center gap-3">
-              <VerifiedIcon className="text-emerald-300" />
-              <div>
-                <p className="text-xs font-bold">Real Projects</p>
-                <p className="text-[10px] text-slate-400">Real Skills</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <a
@@ -348,7 +316,10 @@ export default function Portfolio() {
         </a>
       </section>
 
-      <section id="about" className="border-y border-slate-800/80 bg-[#06101f]/60">
+      <section
+        id="about"
+        className="border-y border-slate-800/80 bg-[#06101f]/60"
+      >
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-[.85fr_1.4fr] md:px-8">
           <div>
             <p className="mb-2 text-sm font-semibold text-cyan-300">
